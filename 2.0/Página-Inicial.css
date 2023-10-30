@@ -1,0 +1,224 @@
+ .u-section-1 {
+  background-image: none;
+  min-height: 847px;
+}
+
+.u-section-1 .u-group-1 {
+  width: calc(((100% - 1140px) / 2) + 120px);
+  height: auto;
+  min-height: 847px;
+  margin: 0 auto 0 0;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-1 .u-image-1 {
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 0.875rem;
+  margin: 51px 19px 0 14px;
+}
+
+.u-section-1 .u-icon-1 {
+  font-size: 1.3572em;
+  vertical-align: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 0.875rem;
+  margin: 4px 19px 0 14px;
+}
+
+.u-section-1 .u-icon-2 {
+  font-size: 1.3572em;
+  vertical-align: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 0.875rem;
+  margin: 4px 19px 0 14px;
+}
+
+.u-section-1 .u-icon-3 {
+  font-size: 1.3572em;
+  vertical-align: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.u-section-1 .u-text-4 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin: 58px auto 0 19px;
+}
+
+.u-section-1 .u-text-5 {
+  font-style: normal;
+  font-size: 0.875rem;
+  margin: 20px auto 0 19px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  letter-spacing: normal;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 1rem;
+  margin: 14px auto 0;
+  padding: 10px 64px;
+}
+
+.u-section-1 .u-icon-4 {
+  vertical-align: 0px;
+}
+
+.u-section-1 .u-text-6 {
+  font-weight: 700;
+  margin: -665px auto 0 calc(((100% - 1140px) / 2) + 233px);
+}
+
+.u-section-1 .u-text-7 {
+  font-weight: 700;
+  margin: 0 auto 0 calc(((100% - 1140px) / 2) + 233px);
+}
+
+.u-section-1 .u-shortcode-1 {
+  width: 732px;
+  min-height: 415px;
+  margin-left: calc(((100% - 1140px) / 2) + 233px);
+  margin-top: 32px;
+  margin-bottom: 60px;
+  height: auto;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 821px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 940px) / 2) + 186px);
+    min-height: 821px;
+    height: auto;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: NaNpx;
+  }
+
+  .u-section-1 .u-text-6 {
+    width: auto;
+    margin-top: -726px;
+    margin-left: calc(((100% - 940px) / 2) + 244px);
+  }
+
+  .u-section-1 .u-text-7 {
+    width: auto;
+    margin-left: calc(((100% - 940px) / 2) + 244px);
+  }
+
+  .u-section-1 .u-shortcode-1 {
+    margin-left: calc(((100% - 940px) / 2) + 244px);
+    margin-top: 53px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 720px) / 2) + 186px);
+  }
+
+  .u-section-1 .u-text-6 {
+    margin-top: -724px;
+    margin-left: calc(((100% - 720px) / 2) + 228px);
+  }
+
+  .u-section-1 .u-text-7 {
+    margin-left: calc(((100% - 720px) / 2) + 228px);
+  }
+
+  .u-section-1 .u-shortcode-1 {
+    width: 521px;
+    margin-left: calc(((100% - 720px) / 2) + 228px);
+    margin-top: 51px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 540px) / 2) + 186px);
+  }
+
+  .u-section-1 .u-text-6 {
+    margin-top: -713px;
+    margin-left: 260px;
+  }
+
+  .u-section-1 .u-text-7 {
+    margin-top: 20px;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-shortcode-1 {
+    width: 364px;
+    margin-left: calc(((100% - 540px) / 2) + 210px);
+    margin-top: 24px;
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 340px) / 2) + 186px);
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 0.625rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 0.625rem;
+  }
+
+  .u-section-1 .u-text-3 {
+    font-size: 0.625rem;
+  }
+
+  .u-section-1 .u-btn-1 {
+    letter-spacing: 1px;
+    border-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px 30px;
+  }
+
+  .u-section-1 .u-text-6 {
+    margin-top: -676px;
+    margin-right: 107px;
+    margin-left: calc(((100% - 340px) / 2) + 200px);
+  }
+
+  .u-section-1 .u-text-7 {
+    margin-top: 0;
+    margin-right: 99px;
+    margin-left: calc(((100% - 340px) / 2) + 200px);
+  }
+
+  .u-section-1 .u-shortcode-1 {
+    width: 178px;
+    min-height: 563px;
+    margin-left: calc(((100% - 340px) / 2) + 200px);
+    margin-top: 35px;
+    margin-bottom: 0;
+  }
+}
