@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #151515; /* Cor de fundo ajustada para #151515 */
+            background-color: #151515;
             margin: 0;
             padding: 0;
             overflow-x: hidden;
@@ -122,7 +122,7 @@
         const buyButton = document.createElement('button');
         buyButton.textContent = 'Comprar';
         buyButton.id = 'buy-button';
-        buyButton.addEventListener('click', () => redirectToLink(encodeURIComponent(buyLink)));
+        buyButton.addEventListener('click', () => redirectToLink(buyLink));
 
         details.appendChild(description);
         details.appendChild(buyButton);
@@ -133,7 +133,7 @@
     }
 
     function redirectToLink(link) {
-        window.location.href = decodeURIComponent(link);
+        window.location.href = link;
     }
 
     // Inicia o processo de renderização dos produtos
