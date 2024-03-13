@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redirecionando para Instagram...</title>
+<style>
+    body {
+        background-color: black;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @keyframes countdown {
+        0% { opacity: 1; }
+        50% { opacity: 0.5; }
+        100% { opacity: 1; }
+    }
+
+    .countdown {
+        animation: countdown 2s ease-in-out infinite;
+    }
+</style>
+</head>
+<body>
+<script>
+    var countdown = 3;
+    var countdownInterval = setInterval(function() {
+        document.getElementById("countdown").innerHTML = countdown;
+        countdown--;
+        if (countdown < 0) {
+            clearInterval(countdownInterval);
+            window.location.href = "https://www.instagram.com/ruan.dbad/";
+        }
+    }, 1000);
+</script>
+<h1 class="countdown">Redirecionando para Instagram em:</h1>
+<h2 id="countdown" class="countdown">3</h2>
+</body>
+</html>
